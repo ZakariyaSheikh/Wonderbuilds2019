@@ -1,0 +1,11 @@
+.products_list_content {
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products_list_content:after {
+    content: "";
+    flex-basis: 30%;
+}

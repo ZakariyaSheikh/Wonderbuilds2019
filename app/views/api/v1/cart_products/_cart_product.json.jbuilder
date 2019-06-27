@@ -1,0 +1,1 @@
+json.(cart_product, :name, :quantity)

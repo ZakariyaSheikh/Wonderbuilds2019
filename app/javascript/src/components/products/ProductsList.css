@@ -1,0 +1,34 @@
+.products_list_heading_block {
+    margin-top: 40px;
+}
+
+.products_list_content {
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.active_filter {
+    border-radius: 4px;
+    background-color: #4f4f4f;
+    color: #ffffff;
+    font: 400 16px 'LatoRegular';
+    padding: 6px 20px 7px 20px;
+    margin-right: 10px;
+}
+
+.active_filters_wrapper {
+    float: left;
+    width: calc(100% - 200px);
+}
+
+.remove_filter {
+    margin-left: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sort_dropdown {
+    float: right;
+}

@@ -1,0 +1,1 @@
+json.(shipping_info, :name, :surname, :country, :city, :province, :address, :zip, :telephone)

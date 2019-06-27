@@ -1,0 +1,21 @@
+.checkout_auth_side {
+    width: 47%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.checkout_auth {
+    margin: 80px 16.67% 0;
+}
+
+.checkout_auth_block {
+    max-width: 360px;
+    text-align: left;
+}
+
+.checkout_auth_header {
+    text-align: left;
+    color: #252525;
+    letter-spacing: 0.7px;
+    font: 700 28px/34px "LatoBold"
+}

@@ -1,0 +1,34 @@
+.test {
+
+}
+
+.filter-active {
+    background-color: #fff;
+    border: 1px solid rgba(34, 34, 34, .1);
+    border-radius: 4px;
+    font-family: "LatoRegular";
+    width: 17%;
+    align-items: center;
+    heigth: 15px;
+    overflow: hidden;
+    padding: 12px;
+    display: flex;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.filter_active_remove {
+    text-align: center;
+    width: 10%;
+    cursor: pointer;
+}
+
+.filter_active_title {
+    width: 87%;
+    overflow: hidden;
+}
+
+
+.filter-active:hover {
+    border: 1px solid #b6b6b6;
+}

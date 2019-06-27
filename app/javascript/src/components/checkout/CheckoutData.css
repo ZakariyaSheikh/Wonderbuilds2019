@@ -1,0 +1,140 @@
+.checkout_info_data {
+    width: 67%!important;
+}
+
+.checkout {
+    margin: 80px 10%;
+}
+
+.checkout_left, .checkout_cart {
+    display: inline-block;
+}
+
+.checkout_left {
+    width: calc(100% - 360px);
+}
+
+.checkout_cart {
+    vertical-align: top;
+    width: 360px;
+    box-shadow: 0 0 15px rgba(191, 198, 207, 0.2);
+    background-color: #ffffff;
+}
+
+.checkout_data_header {
+    color: #252525;
+    letter-spacing: 1px;
+    font: 700 40px/48px "LatoBold";
+}
+
+.checkout_shipping_data_side {
+    width: calc(50% - 40px);
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.checkout_shipping_data_side div {
+    margin-top: 50px;
+}
+
+.checkout_continue_button {
+    color: #ffffff;
+    letter-spacing: 2px;
+    width: 240px;
+    background-color: #c6271b;
+    font: 700 14px/40px "LatoBold";
+    margin-top: 40px;
+}
+
+.checkout_payment_method {
+    margin-top: 80px;
+}
+
+.checkout_shipping_data_small_side {
+    width: calc(25% - 40px);
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.in_checkout_product {
+    height: 100px;
+}
+
+.in_checkout_product_image {
+    margin-left: 30px;
+}
+
+.in_checkout_product_names {
+    width: 146px;
+}
+
+.checkout_cart_total {
+    color: #252525;
+    font: 700 20px/24px "LatoBold";
+    text-align: right;
+    margin-right: 30px;
+}
+
+.checkout_divider {
+    width: 300px;
+    text-align: center;
+}
+
+.disabled {
+    pointer-events: none;
+    background-color: #464646;
+}
+
+.overlay {
+    z-index: 500;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.overlay .lds-ring {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+
+.spin-big {
+    font-size: 50px;
+    height: 50px;
+    width: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+}
+
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    margin: 6px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

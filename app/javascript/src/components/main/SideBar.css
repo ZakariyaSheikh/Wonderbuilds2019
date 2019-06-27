@@ -1,0 +1,76 @@
+.wrapper {
+    padding-left: 10px;
+}
+
+.rc-menu, .rc-menu-submenu-title {
+    font-weight: 700;
+    color: black;
+    border: none !important;
+    box-shadow: none !important;
+    border-width: 2px 0px 0px !important;
+}
+
+.rc-menu-item-selected,
+.rc-menu-submenu-selected,
+.rc-menu-submenu-selected > .rc-menu-submenu-title {
+    background: none !important;
+}
+
+.rc-menu-submenu-active > .rc-menu-submenu-title,
+.rc-menu-item-active {
+    background: none !important;
+}
+
+.rc-menu-item-active > a {
+    color: red !important;
+}
+
+.rc-menu,
+.rc-menu-item > a {
+    color: initial;
+    cursor: pointer;
+}
+
+.rc-menu-sub .rc-menu-item {
+    color: #626262;
+    font-weight: 400;
+}
+
+ul.rc-menu > li > ul > li {
+    font-weight: 400;
+}
+
+.rc-menu-submenu-arrow {
+    top: 8px;
+}
+
+.rc-menu-vertical > .rc-menu-item,
+.rc-menu-vertical-left > .rc-menu-item,
+.rc-menu-vertical-right > .rc-menu-item,
+.rc-menu-inline > .rc-menu-item,
+.rc-menu-vertical > .rc-menu-submenu > .rc-menu-submenu-title,
+.rc-menu-vertical-left > .rc-menu-submenu > .rc-menu-submenu-title,
+.rc-menu-vertical-right > .rc-menu-submenu > .rc-menu-submenu-title,
+.rc-menu-inline > .rc-menu-submenu > .rc-menu-submenu-title {
+    padding: 12px 8px 12px 0px !important;
+}
+
+.red > a {
+    color: red !important;
+}
+
+.child_li > a {
+    padding-left: 15px !important;
+}
+ul[id="1$Menu"] > li > a{
+    font-weight: 700;
+    color: black;
+    border: none !important;
+    box-shadow: none !important;
+    border-width: 2px 0px 0px !important;
+    text-transform: uppercase;
+}
+.rc-menu-root > li > a:before{
+    content: "»";
+    margin-right: 5px;
+}

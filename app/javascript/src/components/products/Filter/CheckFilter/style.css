@@ -1,0 +1,46 @@
+.styled-input-single {
+    position: relative;
+    padding: 12px 0 12px 30px;
+    text-align: left;
+}
+.styled-input-single label {
+    cursor: pointer;
+}
+.styled-input-single label:before, .styled-input-single label:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+}
+.styled-input-single label:before {
+    left: 0;
+    width: 16px;
+    height: 16px;
+    margin: -10px 0 0;
+    background: #f7f7f7;
+    box-shadow: 0 0 1px grey;
+}
+.styled-input-single label:after {
+    left: 2px;
+    width: 12px;
+    height: 12px;
+    margin: -8px 0px 0;
+    opacity: 0;
+    background: #232322;
+    transition: opacity 0.25s ease-in-out;
+}
+.styled-input-single input[type="checkbox"] {
+    position: absolute;
+    top: 0;
+    left: -9999px;
+    visibility: hidden;
+}
+.styled-input-single input[type="checkbox"]:checked + label:after {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+.styled-input--square label:before, .styled-input--square label:after {
+    border-radius: 0;
+}

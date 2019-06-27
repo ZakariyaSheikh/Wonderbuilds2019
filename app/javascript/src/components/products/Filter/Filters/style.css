@@ -1,0 +1,20 @@
+.content_new_filter {
+    position: relative;
+}
+
+.main_li{
+    list-style: none;
+}
+
+.main_div {
+    cursor: pointer;
+    text-transform: capitalize;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_ul {
+    padding: 0;
+    margin: 0;
+}

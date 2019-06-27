@@ -1,0 +1,40 @@
+.parent_search {
+    color: gray;
+}
+.parent_search, .categori_search {
+    padding-left: 9px !important;
+}
+.categori_search:hover {
+    background-color: #2db7f5;
+}
+.categori_search a {
+    text-decoration: none;
+    color: white;
+}
+.categori_parent_search:hover {
+    background-color: #2db7f5;
+}
+.categori_parent_search a {
+    text-decoration: none;
+    color: white;
+}
+.categori_parent_search {
+    padding-left: 15px !important;
+}
+#select-header-categories {
+    background-color: #464646;
+    color: white;
+}
+#select-header-categories li {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    height: 20px;
+}
+#select-header-categories {
+    margin: 0 -10px 5px -10px !important;
+    padding-left: 1px !important;
+}
+.select-categories-container {
+    position: relative;
+}

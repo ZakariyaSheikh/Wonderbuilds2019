@@ -1,0 +1,12 @@
+.search_page {
+    margin: 80px 10% 0;
+    min-height: 484px;
+}
+
+.search_page div:last-of-type {
+    margin-bottom: 100px;
+}
+
+.search_products_page_header {
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+.cart-product {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-product-image {
+    width: 80px;
+    height: 80px;
+}
+
+.cart-product-names {
+    width: 200px;
+}
+
+.cart-product-name {
+    color: #252525;
+    font: 700 16px/19px "LatoBold";
+}
+
+.cart-product-quantity {
+    color: #bdbdbd;
+    letter-spacing: 1px;
+    font: 700 11px/13px "LatoBold";
+    margin-top: 6px;
+}
+
+.cart-product-price {
+    color: #c6271b;
+    font: 700 16px/19px "LatoBold";
+    text-align: right;
+    width: 65px;
+}
+
+.cart-product-remove {
+    margin-left: 34px;
+    color: #bdbdbd;
+    cursor: pointer;
+}
+
+.cart-product-button {
+    width: 160px;
+    height: 40px;
+    color: #c6271b;
+    letter-spacing: 2px;
+    font: 700 14px/40px "LatoBold";
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 19px;
+    cursor: pointer;
+}

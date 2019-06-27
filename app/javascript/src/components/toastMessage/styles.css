@@ -1,0 +1,53 @@
+#toastCont {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #d8211e;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    top: 5%;
+    right: 5%;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#toastCont.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s;
+    animation: fadein 0.5s;
+}
+
+#toastCont.hidden {
+    -webkit-animation: fadeout 0.5s;
+    animation: fadeout 0.5s;
+}
+.exclSpan {
+    margin-right: 5px;
+}
+.closeSpan {
+    margin-left: 10px;
+}
+
+@-webkit-keyframes fadein {
+    from {right: 0; opacity: 0;}
+    to {right: 5%; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {right: 0; opacity: 0;}
+    to {right: 5%; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {right: 5%; opacity: 1;}
+    to {right: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {right: 5%; opacity: 1;  visibility: visible;}
+    to {right: 0; opacity: 0; visibility: hidden;}
+}

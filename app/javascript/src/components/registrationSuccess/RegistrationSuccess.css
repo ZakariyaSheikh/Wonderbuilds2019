@@ -1,0 +1,20 @@
+.registration_success_content {
+    height: 684px;
+    text-align: center;
+}
+
+.registration_success_header {
+    margin: 80px 0 40px;
+    color: #252525;
+    letter-spacing: 1px;
+    font: 700 40px/48px "LatoBold";
+}
+
+.registration_success_text {
+    color: #4f4f4f;
+    font: 400 16px/28px "LatoRegular";
+}
+
+.registration_success_br {
+    line-height: 0;
+}

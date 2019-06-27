@@ -1,0 +1,111 @@
+.contact_us {
+    margin: 80px 16.7% 135px 16.7%;
+    overflow: auto;
+}
+
+.contact_us_left {
+    float: left;
+    width: 59%;
+}
+
+.contact_us_right {
+    float: left;
+    width: 41%;
+}
+
+.contact_us_header {
+    color: #252525;
+    letter-spacing: 1px;
+    font: 700 40px/48px "LatoBold";
+    margin-bottom: 40px;
+}
+
+.contact_us_text {
+    margin-top: 20px;
+    color: #4f4f4f;
+    font: 400 14px/26px "LatoRegular";
+    margin-left: 41px;
+    position: relative;
+}
+
+
+.contact_us_address:before {
+    content: url('./../../images/contactUs/ic-address.svg');
+    z-index: 1;
+    position: absolute;
+    left: -38px;
+    top: 2px;
+}
+
+.contact_us_email:before {
+    content: url('./../../images/contactUs/ic-email.svg');
+    z-index: 1;
+    position: absolute;
+    left: -40px;
+    top: 5px;
+}
+
+.contact_us_phone:before {
+    content: url('./../../images/contactUs/ic-phone.svg');
+    z-index: 1;
+    position: absolute;
+    left: -38px;
+    top: 4px;
+}
+
+.contact_us_user_data_input {
+    margin-top: 62px;
+}
+
+.contact_us_user_name_input, .contact_us_user_email_input {
+    float: left;
+    width: 45% !important;
+}
+
+.contact_us_user_name_label, .contact_us_user_email_label {
+    bottom: -30px !important;
+}
+
+.contact_us_user_email_input, .contact_us_user_email_label {
+    margin-left: 10%;
+}
+
+.contact_us_user_name {
+    margin-top: 60px;
+}
+
+.contact_us_message {
+    width: 100%;
+    position: relative;
+}
+
+.contact_us_message {
+    margin-top: 180px;
+    width: 100%;
+}
+
+.contact_us_message_input {
+    min-height: 48px !important;
+    resize: none;
+    overflow:hidden;
+}
+
+.contact_us_button {
+    width: 160px;
+    height: 40px;
+    border-radius: 4px;
+    font: 700 14px/40px "LatoBold";
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #c6271b;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+.contact_us_map {
+    width: calc(100% - 59px);
+    max-width: 340px;
+    margin-top: 88px;
+    margin-left: 59px;
+}

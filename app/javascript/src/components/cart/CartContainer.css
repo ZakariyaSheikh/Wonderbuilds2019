@@ -1,0 +1,118 @@
+.cart_products_block {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.cart_header {
+    margin-top: 79px;
+    text-align: center;
+    color: #252525;
+    letter-spacing: 1px;
+    font: 700 40px/48px "LatoBold";
+}
+
+.cart_products_table {
+    margin-top: 39px;
+}
+
+.cart_table_header {
+    color: #bdbdbd;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font: 700 14px "LatoBold";
+    text-align: left;
+}
+
+.cart_header_item, .cart_product_item, .cart_in_header_item {
+    display: inline-block;
+}
+
+.cart_table_header_product {
+    width: 40%;
+}
+
+.cart_table_header_price, .cart_table_header_quantity, .cart_product_price, .cart_product_quantity {
+    width: 20%;
+}
+
+.cart_table_header_total {
+    width: 50px;
+}
+
+.cart_default_margin {
+    margin: 20px 0;
+}
+
+.cart_out_table_separator {
+    width: 100%;
+    height: 2px;
+    background-color: #bdbdbd;
+    border: none;
+}
+
+.cart_total {
+    color: #c6271c;
+    font: 700 32px/39px "LatoBold";
+    text-align: right;
+}
+
+.cart_button {
+    width: 160px;
+    height: 40px;
+    border-radius: 4px;
+    font: 700 14px/40px "LatoBold";
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.cart_back_to_shop_button {
+    border: 2px solid #c6271b;
+    color: #c6271b;
+    float: left;
+}
+
+.cart_checkout_button {
+    background-color: #c6271b;
+    color: #ffffff;
+    float: right;
+}
+
+.cart_buttons_block {
+    margin-bottom: 140px;
+}
+
+.small .cart_header,
+.small .cart_buttons_block,
+.small .cart_table_header{
+    display: none;
+}
+
+.small .separator_top{
+    display: none;
+}
+
+.small {
+    height: fit-content;
+    margin-left: 0;
+    width: 30%!important;
+    box-shadow: 0 0 15px #bfc6cf80;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 325px;
+}
+
+.small .cart_products_table {
+    margin-top: 0px;
+}
+.cart_total .VATContainer {
+    display: block;
+    color: #626262;
+    font-size: 18px;
+    line-height: 24px;
+}
+.smallVAT .VATContainer {
+    font-size: 14px;
+    line-height: 16px;
+}

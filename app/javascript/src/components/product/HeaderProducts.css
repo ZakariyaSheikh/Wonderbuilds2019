@@ -1,0 +1,33 @@
+.product-header-conteiner {
+    padding: 60px 0;
+}
+
+.product-header-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.product-header {
+    font-weight: 700;
+    width: 100%;
+    background: url(../../images/whatever.png);
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.product-header-href  a{
+    color: white;
+    font-size: 18px;
+}
+
+.product-header-name {
+    color: red;
+}
+
+.product-header-href span {
+    cursor: default;
+}

@@ -1,0 +1,20 @@
+test
+tmp
+.idea
+config/database.yml
+log
+public
+/public/packs-test
+/node_modules
+
+
+# Ignore application configuration
+/config/application.yml
+/public/packs
+/public/packs-test
+/node_modules
+yarn-debug.log*
+.yarn-integrity
+app/javascript/.vscode/settings.json
+app/javascript/.history/
+.byebug_history

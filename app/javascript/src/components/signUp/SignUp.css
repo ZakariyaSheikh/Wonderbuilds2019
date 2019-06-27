@@ -1,0 +1,61 @@
+.sign_up {
+    margin: 79px calc(50% - 181px) 0 calc(50% - 181px);
+    height: 684px;
+}
+
+.sign_up_header {
+    text-align: center;
+    color: #252525;
+    letter-spacing: 1px;
+    font: 700 40px/48px "LatoBold";
+}
+
+.sign_up_inputs div {
+    margin-top: 50px;
+}
+
+.sign_up_checkmark_container {
+    margin-top: 42px;
+    color: #252525;
+    font: 400 12px/30px "LatoRegular";
+}
+
+.sign_up_checkmark {
+    border-color: #252525;
+}
+
+.sign_up_checkmark_container input:checked ~ .sign_up_checkmark {
+    background-color: #252525;
+}
+
+.sign_up_buttons {
+    margin-top: 40px;
+    margin-bottom: 180px;
+}
+
+.sign_up_button {
+    float:left;
+    width: 160px;
+    height: 40px;
+    border-radius: 4px;
+    font: 700 14px/40px "LatoBold";
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #c6271b;
+    color: #ffffff;
+}
+
+.sign_up_login {
+    float: right;
+    color: #252525;
+    font: 400 14px/40px "LatoRegular";
+}
+
+.sign_up_login_link {
+    color: #c6271b;
+}
+
+.sign_up_terms_link {
+    color: #252525;
+}

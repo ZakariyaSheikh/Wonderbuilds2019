@@ -1,0 +1,18 @@
+.sign_in_checkmark_container {
+    width: 100px;
+    float: left;
+    margin-top: 21px;
+    font: 400 14px/30px "LatoRegular";
+}
+
+.sign_in_forgot_password {
+    float: right;
+    margin-top: 27px;
+    color: #252525;
+    font: 700 14px/17px "LatoBold";
+}
+
+.sign_in_buttons {
+    clear: both;
+    margin-top: 92px;
+}

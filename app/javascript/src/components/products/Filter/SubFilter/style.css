@@ -1,0 +1,56 @@
+.sub_ul {
+    padding: 0;
+}
+.sub_li {
+    padding-left: 10px;
+    list-style: none;
+}
+
+.d-none {
+    display: none!important;
+}
+
+.has_hover:hover {
+    background-color: #f5f5f5;
+}
+
+.angle_filter {
+    width: 15%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.angle_filter_down {
+    background-image: url(../../../../images/angel-down-thin.png);
+}
+
+.angle_filter_up {
+    background-image: url(../../../../images/angel-up-thin.png);
+}
+
+.div_bolder {
+    border-bottom: .1rem solid #e6e6e6;
+}
+
+.div_bolder .main_title:after {
+    -webkit-transition: background-color .25s linear;
+    bottom: -1.3rem;
+    transition: background-color .25s linear;
+}
+
+.div_bolder .main_title:after {
+    bottom: -14px;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #ef0000;
+}
+
+.main_title {
+    max-width: 90%;
+    position: relative;
+}

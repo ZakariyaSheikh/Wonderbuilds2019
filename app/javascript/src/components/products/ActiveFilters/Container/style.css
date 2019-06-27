@@ -1,0 +1,6 @@
+.active-filter-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px 0;
+}
