@@ -1,7 +1,7 @@
-set :application, 'wander_builds'
-set :repo_url, 'git@bitbucket.org:pofofwar/wander_builds.git' # Edit this to match your repository
+set :application, 'wonderbuilds-2019'
+set :repo_url, 'https://wonderbuilds@bitbucket.org/wonderbuilds/wonderbuilds-2019.git' # Edit this to match your repository
 set :branch, :master
-set :deploy_to, '/home/deploy/wander_builds'
+set :deploy_to, '/home/deploy/wonderbuilds-2019'
 set :pty, true
 set :linked_files, %w{config/database.yml config/application.yml}
 append :linked_files, ".env"
