@@ -8,16 +8,19 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 
 
-server '13.58.193.232', user: 'deploy', roles: %w{web app db}
+server '35.176.194.107', user: 'ubuntu', roles: %w{web app db}
 
 # role :app, %w{deploy@13.58.193.232}
 # role :web, %w{deploy@13.58.193.232}
 # role :db,  %w{deploy@13.58.193.232}
-# set :ssh_options, {
-#     keys: %w(~/privateKey/Nikita_work.pem),
-#     forward_agent: false,
-#     auth_methods: %w(~/.ssh/id_rsa.pub)
-# }
+set :ssh_options, {
+   keys: %w(~/Wonderbuilds2019.pem),
+    forward_agent: true,
+  user: fetch(:user),
+    auth_methods: %w(~/wondrbuilds)
+ }
+
+ 
 # role-based syntax
 # ==================
 

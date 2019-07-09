@@ -77,7 +77,7 @@ Rails.application.configure do
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
-  config.asset_host = 'http://54.173.217.172:8080'
+  config.asset_host = 'http://35.176.194.107/:8080'
 
   # Use a different logger for distributed setups.
   # require 'syslog/logger'
@@ -91,7 +91,7 @@ Rails.application.configure do
       :password => 'L0ve4ever!!'
   }
   config.action_mailer.default_options = { from: 'applikeytester@gmail.com' }
-  config.action_mailer.default_url_options = { host: '54.173.217.172', port: 8080 }
+  config.action_mailer.default_url_options = { host: '35.176.194.107', port: 8080 }
   config.action_mailer.perform_deliveries = true
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
 
