@@ -44,9 +44,6 @@ gem 'figaro'
 gem 'redis'
 gem 'redis-namespace'
 
-gem 'carrierwave', '~> 1.0'
-gem 'fog'
-gem 'fog-aws'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -64,9 +61,9 @@ group :development do
   gem 'web-console', '>= 3.3.0'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'capistrano'
-  gem 'capistrano-bundler'
+  gem "capistrano-bundler", require: false
   gem 'capistrano-nodenv', '~> 1.0'
-  gem 'capistrano-rails'
+  gem "capistrano-rails", require: false
   gem 'capistrano-rvm'
   gem 'capistrano3-nginx', '~> 2.0'
   gem 'capistrano3-puma'
