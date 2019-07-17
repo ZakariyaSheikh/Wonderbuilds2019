@@ -8,7 +8,11 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 
 
+<<<<<<< HEAD
 server '35.176.194.107', user: 'ubuntu', roles: %w{web app db}
+=======
+server '3.8.174.253', user: 'ubuntu', roles: %w{web app db}
+>>>>>>> b12237cec37631dcde86a0333a88c9db76f04b02
 
 # role :app, %w{deploy@13.58.193.232}
 # role :web, %w{deploy@13.58.193.232}
